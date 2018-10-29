@@ -1,5 +1,5 @@
 class Zwierz (object):
-    def __init__(self, nazwa,):
+    def __init__(self, nazwa):
         self.nazwa = nazwa
 
 
@@ -23,6 +23,8 @@ class Student(Czlowiek):
     super ().__init__ (imie, None)
     self.nr_indeksu = nr_indeksu
 
+
+# method resolution order
 
 
 
